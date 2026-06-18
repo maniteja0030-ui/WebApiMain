@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-  <Compile Remove="WebApplication1.Tests\**\*.cs" />
-</ItemGroup>
+    <ProjectReference Include="..\WebApplication1\WebApplication1.csproj" />
+  </ItemGroup>
 
 </Project>
